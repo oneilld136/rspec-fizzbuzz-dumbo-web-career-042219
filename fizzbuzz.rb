@@ -3,11 +3,11 @@
 require 'rspec'
 def fizzbuzz(number)
   if number % 3 == 0 && number % 5 == 0
-    puts "FizzBuzz"
+    puts "fizzbuzz"
   elsif number % 3 == 0
-    puts "Fizz"
+    puts "fizz"
   elsif number % 5 == 0
-    puts "Buzz"
+    puts "buzz"
   else
     puts number
   end
